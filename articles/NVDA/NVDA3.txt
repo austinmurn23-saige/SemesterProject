@@ -1,0 +1,35 @@
+SAN FRANCISCO (AP) — Nvidia’s sales of its artificial intelligence chipsets remained a hot commodity during the company’s latest quarter, but the demand wasn’t quite feverish enough to ease recent worries that the AI craze may be fading.
+
+The results announced Wednesday were hotly anticipated because Nvidia has emerged as key barometer of a two-year-old AI boom that has been propelling the stock market to new heights. The Silicon Valley chipmaker also became the first publicly traded company to achieve a $4 trillion market value.
+
+In recent weeks, though, research reports and comments by prominent tech executives have raised investor fears that the AI mania has been overblown.
+
+And now Nvidia’s latest numbers covering the May-July period may feed those perceptions because the sales of the company’s processors — indispensable components in the AI data centers being built around the world — aren’t growing as robustly as they once were. The late 2022 release of OpenAI’s ChatGPT unleashed a technological phenomenon that is starting to reshape society.
+
+The AI chips are part of Nvidia’s data center division, which posted revenue of $41.1 billion, a 56% increase from the same time last year, but below the analyst forecast of $41.3 billion, according to FactSet Research.
+
+Related Stories
+Nvidia to invest $5 billion in struggling rival Intel
+Nvidia to invest $5 billion in struggling rival Intel
+A look at Nvidia's latest results
+A look at Nvidia's latest results
+Nvidia and AMD to pay 15% of China chip sale revenue to US
+Nvidia and AMD to pay 15% of China chip sale revenue to US
+Even so, Nvidia’s profit of $26.4 billion, or $1.08 per share, was higher than analysts predicted, as was its total revenue of $46.7 billion — also a 56% increase from the last year.
+
+
+Nvidia signaled it believes more good things are still to come by forecasting revenue of $54 billion for the August-October period, slightly above what analysts had been envisioning for the quarter. “We are in the beginning of the buildout,” Nvidia CEO Jensen Huang told analysts during a Wednesday conference call in which the company predicted another $3 trillion to $4 trillion will be spent on AI initiatives by the end of this decade.
+
+But Nvidia’s stock still slipped 3% in extended trading after the fiscal second quarter report came out, indicating the performance wasn’t enough to allay investors’ fears. A letdown was almost inevitable, given the stock price has increased by more than 10-fold during the past two and a half years.
+
+“Saying the stock was priced for perfection would be an enormous understatement,” said Investing.com analyst Thomas Monteiro.
+
+Delivering the kind of growth to push Nvidia toward a $5 trillion market value has become more daunting as Nvidia’s annual sales have ballooned from $44 billion in its fiscal 2024 to a projected $204 billion in the company’s current fiscal year that ends in January. That has translated into progressively slower rates of year-over-year revenue growth. After Nvidia’s revenue at least doubled or tripled from the previous year in five consecutive quarters during 2023 and 2024, the growth has been tapering off the past four quarter.
+
+Nvidia would have fared better in the most recent quarter if President Donald Trump hadn’t imposed a ban that prevented Nvidia from selling its AI chips in China during the quarter. But investors had already been forewarned the restrictions would cost the company about $8 billion in sales from May through July, so that challenge was already in reflected in Nvidia’s stock price.
+
+Trump took the China handcuffs off of Nvidia earlier this month in return for a 15% cut of the company’s sales in that country — a compromise that is expected to help boost revenue during the upcoming months although it’s unclear how quickly that will happen. In the best case scenario, Nvidia may be able to bring in $2 billion to $5 billion in AI chip sales to China, according to Colette Kress, the company’s chief financial officer.
+
+While the technology industry has been the biggest beneficiary of the AI frenzy, it’s also been a boon for the overall stock market. The benchmark S&P 500 has gained 69% since the end of 2022, with AI fervor fueling much of the investor optimism.
+
+But even amid the general euphoria, there recently have been murmurs about whether AI mania will prove to be an echo of the late 1990s dot-com boom and meltdown that plunged Silicon Valley into a funk that lasted several years.

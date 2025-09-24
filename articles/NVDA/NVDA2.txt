@@ -1,0 +1,162 @@
+Nvidia (NVDA) has found itself once again caught in the crossfire of U.S.-China tensions. Reports indicate that Beijing has ordered the country’s largest tech firms to stop purchasing Nvidia’s artificial intelligence (AI) chips. For Nvidia, the directive marks yet another setback in its ambitions in the world’s second-largest economy. CEO Jensen Huang, commenting on the situation, framed the restrictions as a symptom of broader unresolved issues between the U.S. and China.
+
+
+With NVDA stock hovering near record highs and Wall Street still overwhelmingly bullish, the stakes couldn’t be clearer. And investors are left with an important question: how much does Beijing’s latest crackdown really matter for NVDA stock in 2025? Let’s dive in.
+
+More News from Barchart
+Dear Amazon Stock Fans, Mark Your Calendars for October 7
+
+A $5 Billion Reason to Buy Intel Stock Here
+
+Powell, Parabolic Moves and Other Key Things to Watch this Week
+
+Our exclusive Barchart Brief newsletter is your FREE midday guide to what's moving stocks, sectors, and investor sentiment - delivered right when you need the info most. Subscribe today!
+
+
+About Nvidia Stock
+Nvidia is a premier technology firm known for its expertise in graphics processing units and artificial intelligence solutions. The company is renowned for its pioneering contributions to gaming, data centers, and AI-driven applications. NVDA’s technological solutions are developed around a platform strategy that combines hardware, systems, software, algorithms, and services to provide distinctive value. The chipmaker has a market cap of $4.29 trillion, making it the world’s most valuable company.
+
+
+Shares of the AI darling have rallied 36% on a year-to-date basis. NVDA stock came under pressure early last week after China reportedly banned major tech companies from buying Nvidia’s AI chips and accused the chipmaker of breaching antimonopoly law. However, the stock recovered most of its losses by the end of the week following the announcement of a new partnership with Intel (INTC) and a boost from broader market optimism after the Federal Reserve resumed its rate-cutting campaign.
+
+www.barchart.com
+www.barchart.com
+China Once Again Targets Nvidia’s AI Chips
+Last Wednesday, Nvidia shares dropped more than 2% after a report said that China’s internet regulator had banned the nation’s largest tech firms from purchasing its custom AI chips designed for the Chinese market. The Cyberspace Administration of China (CAC) instructed TikTok parent ByteDance, e-commerce giant Alibaba (BABA), and others to stop testing and cancel existing orders of the RTX Pro 6000D, according to the Financial Times report, citing sources familiar with the matter. Notably, the RTX Pro 6000D, a workstation semiconductor that can also be adapted for AI applications, was introduced only in July, the same time Nvidia announced that the U.S. would relax its earlier ban on the H20 chip.
+
+The chip would likely have seen solid demand in China if not for the ban. Several companies had signaled plans to purchase tens of thousands of RTX Pro 6000D units, designed by Nvidia to comply with U.S. restrictions on advanced AI chip sales to China, and had begun testing and verification with Nvidia’s server suppliers. However, the companies instructed their suppliers to stop the work following the CAC directive, the report said.
+
+
+Meanwhile, Nvidia CEO Jensen Huang voiced his disappointment over the restrictions on the RTX Pro 6000D. “We can only be in service of a market if a country wants us to be,” Huang said last Wednesday at a press briefing in the U.K. “I’m disappointed with what I see, but they have larger agendas to work out between China and the United States,” he added. “I’m patient about it. We’ll continue to be supportive of the Chinese government and Chinese companies as they wish.”
+
+The ban on the RTX Pro 6000D extends beyond earlier regulatory guidance, which had targeted the H20, Nvidia’s other China-exclusive AI chip. Beijing is essentially trying to reduce reliance on Nvidia hardware in an effort to boost domestic alternatives. The FT report said Chinese regulators recently summoned domestic chipmakers like Huawei and Cambricon, along with Alibaba and Baidu (BIDU), to provide assessments of how their products stack up against Nvidia’s China-specific chips. They concluded that China’s AI processors have achieved performance on par with, or even surpassing, the Nvidia products permitted under export controls.
+
+
+“The message is now loud and clear,” said an executive at one of the tech companies, according to the report. “Earlier, people had hopes of renewed Nvidia supply if the geopolitical situation improves. Now it’s all hands on deck to build the domestic system.”
+
+Overall, the move delivers another setback to Nvidia’s ambitions in China, the world’s second-largest economy, which CEO Huang has said could be a $50 billion opportunity with 50% annual growth. However, given the number of headlines we’ve already seen about Nvidia and China, I don’t think the latest development came as much of a surprise. Moreover, Nvidia has already removed Chinese sales from its guidance for the current quarter. “There are a lot of places we can’t go to, and that’s fine,” said Huang, adding that “we’ve guided all financial analysts not to include China.”
+
+
+Keep in mind that Nvidia has been at the center of U.S.-China trade negotiations. That’s why I recommend investors ignore China-related headlines until/if a broader trade deal between the world’s two largest economies is reached. Most already do so, as shown by NVDA stock’s relatively muted reaction to China-related headlines so far.
+
+The fact that Chinese firms were willing to order tens of thousands of Nvidia chips indicates that demand for them in China remains strong. I examined this in more detail in my previous article on NVDA. That said, any breakthrough in U.S.-China trade talks would likely serve as a positive catalyst for NVDA stock, as there’s a great chance that China’s regulatory pressure will ease in the case of a bigger deal between the U.S. and China. A highly anticipated phone call last Friday between U.S. President Donald Trump and Chinese leader Xi Jinping ended with both leaders agreeing to continue discussions. The leaders agreed to meet at a regional economic conference in late October and described the conversation in positive terms.
+
+
+How Did Nvidia Perform in Q2?
+Nvidia reported its financial results on Aug. 27, once again delivering outstanding performance. The company’s total revenue grew 6.1% sequentially and 56% year-over-year to $46.7 billion, beating Wall Street’s consensus by $610 million. And this came despite the company having no new sales in China during the quarter. Revenue from the key Data Center segment, which accounts for 88% of total revenue, rose 56% year-over-year (YoY) and 5% sequentially to $41.1 billion, with Blackwell revenue climbing 17% sequentially. Other segments also performed well. Gaming revenue, the company’s second-largest source, rose 49% YoY, while Professional Visualization grew 32% YoY and Automotive and Robotics jumped 69% YoY. Its adjusted EPS grew 52.9% YoY to $1.04 (excluding H20-related charges/releases), topping expectations by 3 cents.
+
+
+Looking ahead, management forecasts Q3 revenue of $54 billion, plus or minus 2%, reflecting almost 16% sequential growth and a 54% YoY increase. The forecast fell short of investors’ lofty expectations since it excludes any H20 shipments to China for the quarter. According to Nvidia CFO Colette Kress, if U.S. regulatory and “geopolitical issues” were resolved, the figure could have been $2 billion to $5 billion higher.
+
+The main takeaway is that Nvidia’s growth story remains solid even without sales to China. Analysts tracking the company forecast a 50.44% YoY increase in its adjusted EPS to $4.50 for fiscal 2026, with revenue estimated to grow 58.20% from the previous year to $206.45 billion. Still, China sales are important and are likely the final piece of the puzzle Nvidia needs to resume delivering results and guidance that exceed even the highest estimates. With that, I will continue closely monitoring developments in U.S.-China trade negotiations.
+
+
+What Do Analysts Expect for NVDA Stock?
+Despite the challenges in China, Wall Street analysts remain very bullish on Nvidia’s growth outlook, with the stock carrying a top-tier consensus “Strong Buy” rating. Of the 46 analysts covering the stock, 39 give it a “Strong Buy” rating, two a “Moderate Buy,” four recommend holding, and one assigns a “Strong Sell” rating. The mean price target for NVDA stock is $213.51, indicating it still has room for further upside from current levels.
+
+
+To sum up, I don’t believe the latest China ban carries much significance for NVDA stock. Given the number of China-related headlines this year and management’s guidance for zero AI chip sales to the country this quarter, I believe the negatives are already priced in, or at least largely so. As I mentioned earlier, China sales are important but are not central to Nvidia’s overall growth story. The company’s fundamentals are strong, and its growth is expected to continue in the coming years.
+
+www.barchart.com
+www.barchart.com
+On the date of publication, Oleksandr Pylypenko had a position in: NVDA. All information and data in this article is solely for informational purposes. This article was originally published on Barchart.com
+
+
+View Comments (32)
+Terms and Privacy Policy
+Your Privacy Choices
+
+Recommended Stories
+Bear of the Day: Synopsys (SNPS)
+Bear of the Day: Synopsys (SNPS)
+Zacks
+•
+1d ago
+Is Alibaba (BABA) Still A Smart Long-Term Investment?
+Is Alibaba (BABA) Still A Smart Long-Term Investment?
+Insider Monkey
+•
+1d ago
+China’s Labor Market Distress Spreads at Worst Time for Deflation Fight
+China’s Labor Market Distress Spreads at Worst Time for Deflation Fight
+Bloomberg
+•
+1d ago
+Alibaba Cloud's AI Boom: Can This Momentum Drive Even Higher Growth?
+Alibaba Cloud's AI Boom: Can This Momentum Drive Even Higher Growth?
+Zacks
+•
+1d ago
+China buys Argentine soybeans after tax drop, leaving US farmers sidelined
+China buys Argentine soybeans after tax drop, leaving US farmers sidelined
+Reuters
+•
+1d ago
+China's COMAC falls behind on C919 aircraft delivery targets, filings show
+China's COMAC falls behind on C919 aircraft delivery targets, filings show
+Reuters
+•
+10h ago
+4 Things Boomers Should Never Sell in Retirement
+4 Things Boomers Should Never Sell in Retirement
+GOBankingRates
+•
+1d ago
+Mark Cuban: Here’s the No. 1 Thing You Should Do To Build Wealth
+Mark Cuban: Here’s the No. 1 Thing You Should Do To Build Wealth
+GOBankingRates
+•
+15h ago
+Amazon Worst Nightmare: Connecticut Shoppers Are Canceling Prime for This Clever Hack
+Online Shopping Tools.Ad
+What is debt forgiveness?
+What is debt forgiveness?
+Bankrate
+•
+1d ago
+Ask an Advisor: I'm 43 With $315k in IRAs, $90k in a Roth and Maxing Out My 401(k). Can I Retire by 57?
+Ask an Advisor: I'm 43 With $315k in IRAs, $90k in a Roth and Maxing Out My 401(k). Can I Retire by 57?
+SmartAsset
+•
+23h ago
+How to pay off wedding debt
+How to pay off wedding debt
+Bankrate
+•
+1d ago
+
+How to get an RV loan without breaking the bank
+How to get an RV loan without breaking the bank
+Bankrate
+•
+19h ago
+Copyright © 2025 Yahoo. All rights reserved.
+What's trending
+Dow Jones
+S&P 500
+DAX Index
+Nvidia
+Tesla
+DJT
+Tariffs
+Explore more
+Mortgages
+Credit Cards
+Sectors
+Crypto Heatmap
+Financial News
+About
+Data Disclaimer
+Help
+Feedback
+Sitemap
+Licensing
+What's New
+About Our Ads
+Premium Plans
+Quote Lookup
+
+
+Edit your Dock
+
+
