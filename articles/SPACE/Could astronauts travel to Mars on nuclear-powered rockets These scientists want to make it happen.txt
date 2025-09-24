@@ -1,0 +1,39 @@
+Space missions in the future could travel to Mars, asteroids and the outer solar system by riding on nuclear-powered rockets, thanks to a new design that utilizes energy from the nuclear fission of liquid uranium to heat propellant.
+
+The exciting potential of the new technology, which is called a centrifugal nuclear thermal rocket (CNTR), can be neatly summed up by its specific impulse, which describes how efficient a rocket is at generating thrust. In principle, a CNTR rocket can double the specific impulse provided by previous nuclear thermal rocket designs dating back to the 1950s (and still being worked on by NASA and DARPA today) as well as quadruple that which can be achieved by chemical rockets.
+
+Although no nuclear-powered rocket has ever flown, space agencies around the world are increasingly looking at nuclear propulsion as a means of speeding up interplanetary voyages.
+
+You may like
+An illustration showing inflatable ringed bases on the surface of the moon, with wires poking out of the top attached to satellite dishes with the Earth in the background 
+NASA wants to put a nuclear reactor on the moon by 2030 – choosing where is tricky
+illustration of a small, faraway moon base on the hilly, crater-marked surface of the moon.
+NASA aiming to build nuclear reactor on the moon by 2030
+a man in a blue suit speaks in front of a plaque reading &quot;united states department of transportation&quot;
+'We want to get there first and claim that for America': NASA chief explains push for nuclear reactor on the moon (video)
+"The longer you are in space, the more susceptible you are to all types of health risks," Dean Wang of Ohio State University, who is one of the authors of a new NASA-funded study into CNTR, said in a statement. "So if we can make that any shorter, it’d be very beneficial."
+
+Traditional nuclear thermal rockets use solid uranium fuel in fission reactions that heat a liquid hydrogen propellant to the point where it can expand through a nozzle at high enough velocity to generate thrust. CNTR, on the other hand, features liquid uranium in a rotating cylinder (hence, "centrifugal") that maximizes the fission reaction, boosting the engine's efficiency.
+
+"In recent years, there has been quite an increase in interest in nuclear thermal propulsion technology as we contemplate returning humans to the moon and working in cis-lunar space," Wang said. "But beyond it, a new system is needed, as traditional chemical engines may not be feasible."
+
+The CNTR technology would theoretically take spacecraft farther on less fuel, enabling missions to zip between Earth and the moon or perform crewed round-trips to Mars that take just 420 days as opposed to two-and-a-half to three years, the timeframe offered by chemical rockets. Voyages to the outer solar system could be completed more quickly, and because these nuclear rockets allow for a greater velocity than their chemical counterparts, they can follow faster trajectories that are typically out of the question for the latter.
+
+Get the Space.com Newsletter
+Breaking space news, the latest updates on rocket launches, skywatching events and more!
+
+Your Email Address
+
+Contact me with news and offers from other Future brands
+
+Receive email from us on behalf of our trusted partners or sponsors
+By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over.
+Hydrogen also need not be the only form of propellant. A range of materials could be used, some of which could be extracted from asteroids, comets and Kuiper Belt objects during the journey, again enabling missions to voyage very far.
+
+Although CNTR currently exists only on paper, Wang's team is aiming for the concept to reach design readiness in the next five years. If it's successful, missions from around the middle of this century onwards could be getting around the solar system much faster and more safely, without the explosive risks of chemical rockets.
+
+The use of nuclear power in space has been mixed. Many long-term spacecraft, such as the Mars rovers Curiosity and Perseverance, use radioisotope thermoelectric generators (RTGs) to provide power. Recently NASA has spoken, controversially, about placing a nuclear reactor on the moon. With regards to rockets, scientists in the 1950s explored a much more explosive possibility: driving a spacecraft forward by detonating a sequence of nuclear explosions behind it and riding the propulsive blast waves. Most notable was Project Orion, which was a concept study led by physicists Freeman Dyson and Ted Taylor and funded by the U.S. Air Force, DARPA and NASA. Then, in the 1970s, researchers associated with the British Interplanetary Society produced a comprehensive design study called Project Daedalus, which envisioned a nuclear fusion-powered engine that could reach 12% of the speed of light and reach the nearest stars in half a century.
+
+Evidently, as we're still mostly stuck on Earth, nothing ever came from these nuclear-powered design studies. Although it's not on the same scale as those overly ambitious projects, hopefully CNTR could be the breakthrough that spaceflight needs to become more routine and to reach new frontiers.
+
+A paper describing CNTR was published in the September 2025 edition of the journal Acta Astronautica.
