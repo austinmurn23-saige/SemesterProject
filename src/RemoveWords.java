@@ -8,7 +8,7 @@ public class RemoveWords {
  public static void main(String[] args) {
 
         try {
-            File myObj = new File("C:/Users/jrad2/school/jworkshop/SemesterProject/articles/BO7/BO71.txt");
+            File myObj = new File("articles\\BO7\\BO71.txt");
             Scanner myReader = new Scanner(myObj);
 
             // Use a StringBuilder to efficiently combine all lines
@@ -22,13 +22,16 @@ public class RemoveWords {
             myReader.close();
 
             // Convert to a single string
-            String BO71 = article.toString();
+            String fullArticle = article.toString();
            
             // Replace punctuation
-            BO71 = BO71.replaceAll("[^a-zA-Z0-9\\s]", "");
-            String[] words = BO71.split("\\s+");
+            fullArticle = fullArticle.replaceAll("[^a-zA-Z0-9\\s]", "");
+            String[] words = fullArticle.split("\\s+");
             ArrayList<String> wordList = new ArrayList<>(Arrays.asList(words));
             System.out.println("Words: " + wordList);
+
+            //Remove stop words
+            
 
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred.");
