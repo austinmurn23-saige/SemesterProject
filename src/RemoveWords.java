@@ -1,37 +1,50 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class RemoveWords {
- public static void main(String[] args) {
+    public static void main(String[] args) {
 
         try {
+            // Read the article
+            // To change the article it converts, you only need to change the path directly below this line
             File myObj = new File("articles\\BO7\\BO71.txt");
             Scanner myReader = new Scanner(myObj);
 
-            // Use a StringBuilder to efficiently combine all lines
             StringBuilder article = new StringBuilder();
-
             while (myReader.hasNextLine()) {
-                String data = myReader.nextLine();
-                article.append(data).append(" ");
+                article.append(myReader.nextLine()).append(" ");
             }
-
             myReader.close();
 
-            // Convert to a single string
             String fullArticle = article.toString();
-           
-            // Replace punctuation
-            fullArticle = fullArticle.replaceAll("[^a-zA-Z0-9\\s]", "");
-            String[] words = fullArticle.split("\\s+");
-            ArrayList<String> wordList = new ArrayList<>(Arrays.asList(words));
-            System.out.println("Words: " + wordList);
 
-            //Remove stop words
-            
+            // Read the stopwords
+            File stopWordsFile = new File("resources\\stopwords.txt");
+            Scanner thisReader = new Scanner(stopWordsFile);
+            ArrayList<String> stopWords = new ArrayList<>();
+
+            while (thisReader.hasNextLine()) {
+                stopWords.add(thisReader.nextLine().trim().toLowerCase());
+            }
+            thisReader.close();
+
+            // Remove punctuation
+            fullArticle = fullArticle.replaceAll("[^a-zA-Z0-9\\s]", "").toLowerCase();
+
+            // Split into words
+            String[] words = fullArticle.split("\\s+");
+
+            // Remove stop words
+            ArrayList<String> cleanArticle = new ArrayList<>();
+            for (String word : words) {
+                if (!stopWords.contains(word)) {
+                    cleanArticle.add(word);
+                }
+            }
+
+            System.out.println(cleanArticle);
 
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred.");
