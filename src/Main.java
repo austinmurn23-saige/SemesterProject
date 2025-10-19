@@ -1,20 +1,23 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.ArrayList;
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
-        System.out.print("first commit");
+        try {
+            System.out.println(" Loading stop words...");
+            ArrayList<String> stopWords = RemoveWords.loadStopWords("resources/stopwords.txt");
 
+            System.out.println(" Processing all topic folders...");
+            Map<String, ArrayList<String>> topicData = RemoveWords.processAllTopics("articles", stopWords);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+            System.out.println(" Analyzing results...");
+            TextAnalyzer.analyzeTopics(topicData);
 
+            System.out.println(" Done! All topics processed successfully.");
 
-
+        } catch (Exception e) {
+            System.out.println(" Error while running analysis:");
+            e.printStackTrace();
         }
     }
 }
