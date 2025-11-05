@@ -13,6 +13,13 @@ public class Main {
             System.out.println(" Analyzing results...");
             TextAnalyzer.analyzeTopics(topicData);
 
+            System.out.println(" Loading sentiment lexicon...");
+            Map<String, Double> lexicon = SentimentAnalyzer.loadLexicon("resources/lexiconscores.txt");
+
+            System.out.println(" Calculating sentiment...");
+            Map<String, Double> sentimentScores = SentimentAnalyzer.computeSentimentScores(topicData, lexicon);
+            SentimentAnalyzer.displaySentimentResults(sentimentScores);
+            
             System.out.println(" Done! All topics processed successfully.");
 
         } catch (Exception e) {
