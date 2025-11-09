@@ -1,6 +1,6 @@
 # Semester Project - Text Analyzer
 
-This project is a Java application designed to perform text analysis on a collection of articles. The application reads articles on various topics, preprocesses the text, and calculates key statistics, including word frequency.
+This project is a Java application designed to perform text analysis on a collection of articles. The application reads articles on various topics, preprocesses the text, and calculates key statistics, including word frequency, vocabulary richness, and sentiment analysis.
 
 ## Team Information
 
@@ -12,27 +12,60 @@ This project is a Java application designed to perform text analysis on a collec
 
 ## How the Project Works
 
-The project is split into three files.
+The project has been refactored into multiple classes to ensure better modularity, maintainability, and ease of collaboration among team members. Instead of branching off and merging, we split the project into distinct, independent classes based on functionality. This approach aligns with software development best practices, reducing merge conflicts and improving the scalability of the project.
 
 ### `Main.java`
-This is the file that starts everything. The `main` method here is the first thing that runs and it controls the whole process.
-* It tells the `RemoveWords` file to load a list of common words to ignore.
-* Then, it tells `RemoveWords` to read all of the articles and clean up the text.
-* Finally, it takes the clean words and hands them over to the `TextAnalyzer` file to be counted and printed.
+This file serves as the entry point for the application. The `main` method orchestrates the entire process by calling the necessary methods from other classes. It:
+* Loads the stop words from the `stopwords.txt` file via the `RemoveWords` class.
+* Processes articles in the `articles` directory, cleans the text, and prepares it for analysis using the `RemoveWords` class.
+* Passes the cleaned data to the `TextAnalyzer` class for word frequency analysis and vocabulary richness calculation.
+* Loads the sentiment lexicon, computes sentiment scores for each topic, and displays the results using the `SentimentAnalyzer` class.
 
 ### `RemoveWords.java`
-This file is a helper that does all the text cleaning.
-* **`loadStopWords`**: This method reads the `stopwords.txt` file to get a list of boring words (like "a", "the", "is", etc.). We do this so we can ignore them later.
-* **`processAllTopics`**: This method does most of the work. It goes into the `articles` folder, reads all the text files for a topic, and gets them ready. It removes punctuation, makes all words lowercase, and then removes all the boring stop words. It gives back a clean list of important words for each topic.
+This file is responsible for cleaning the text data.
+* **`loadStopWords`**: Reads the `stopwords.txt` file to get a list of stopwords (such as "a", "the", "is", etc.) that should be excluded from analysis.
+* **`processAllTopics`**: Goes through each topic folder in the `articles` directory, reads the articles, removes punctuation, converts text to lowercase, and eliminates stopwords. The method returns a cleaned list of words for each topic, which is passed to the next stage of analysis.
 
 ### `TextAnalyzer.java`
-This file is another helper that does all the counting and shows the results.
-* **`analyzeTopics`**: This method takes the clean list of words from `RemoveWords`. It first counts the total number of words and how many of them are unique. Then, it counts how many times each individual word appears in the list. Finally, it sorts the words from most common to least common and prints out a "Top 10" list to the screen.
-    
+This file performs the analysis of word frequency and vocabulary richness.
+* **`analyzeTopics`**: Takes the cleaned words from `RemoveWords` and calculates:
+    * Total word count
+    * Unique word count
+    * Vocabulary richness (the ratio of unique words to total words)
+    * Word frequency distribution (top 10 most frequent words)
+    This information is printed to the console for each topic.
+
+### `VocabRichness.java`
+This new file calculates the **vocabulary richness** for each topic. It focuses on measuring how diverse the vocabulary is by calculating the ratio of unique words to the total number of words.
+* **`calculateRichness`**: Calculates vocabulary richness for each topic.
+* **`analyzeVocabRichness`**: Displays the vocabulary richness for each topic in the project.
+
+### `SentimentAnalyzer.java`
+This new file handles sentiment analysis of the articles.
+* **`loadLexicon`**: Loads a sentiment lexicon from the `lexiconscores.txt` file. The lexicon maps words to sentiment scores (positive, negative, neutral).
+* **`computeSentimentScores`**: Computes the sentiment score for each topic based on the presence of words from the lexicon in the topic’s articles.
+* **`displaySentimentResults`**: Displays the sentiment score for each topic, categorizing them as positive, negative, or neutral based on the score.
+
+---
+
+## Why We Chose to Use Separate Classes Instead of Branching
+
+### **Advantages of Separate Classes**:
+1. **Reduced Merge Conflicts**: By creating independent classes for distinct functionalities (e.g., text cleaning, vocabulary richness, and sentiment analysis), each team member can work on their specific module without interfering with others. This avoids the common problem of merge conflicts when working on a shared file.
+2. **Improved Collaboration**: In a multi-developer environment, it is easier to work on different parts of the system independently. This separation of concerns allows each developer to focus on their part without constantly merging and resolving conflicts.
+3. **Easier Maintenance**: With separate classes, it’s easier to locate and fix issues, as each class has a single responsibility. If we need to change how we analyze sentiment, for example, we can do so in `SentimentAnalyzer.java` without affecting the other parts of the project.
+4. **Better Modularity and Reusability**: Each class is modular and can be reused in other projects if needed. For instance, `VocabRichness.java` can be used in future projects that require similar vocabulary analysis.
+
+### **Why We Avoided Branching and Merging**:
+- Branching and merging is a common approach in version-controlled projects, but it can lead to problems in cases where team members are frequently modifying the same files, which can result in conflicts. By keeping different functionalities in separate classes, we avoid this issue.
+- Instead of merging multiple branches of overlapping code, separating concerns allows each developer to work in parallel and integrate their changes seamlessly when required.
+
+---
+
 ## Milestone 1 Architecture (UML Class Diagram)
 
-This diagram shows the initial class structure for the project.
-    
+This updated class structure reflects the new modular approach, with distinct classes for each responsibility. The UML diagram below illustrates how the classes interact.
+
 ```mermaid
 classDiagram
     class Main {
@@ -40,15 +73,29 @@ classDiagram
     }
 
     class RemoveWords {
-        +--static-- loadStopWords(String path) : Set~String~
-        +--static-- processAllTopics(String path, Set~String~ stopWords) : Map~String, ArrayList~String~~
+        +--static-- loadStopWords(String path) : ArrayList~String~
+        +--static-- processAllTopics(String path, ArrayList~String~ stopWords) : Map~String, ArrayList~String~~
     }
 
     class TextAnalyzer {
         +--static-- analyzeTopics(Map~String, ArrayList~String~~ topicData)
     }
 
+    class VocabRichness {
+        +--static-- calculateRichness(ArrayList~String~ words) : double
+        +--static-- analyzeVocabRichness(Map~String, ArrayList~String~~ topicData)
+    }
+
+    class SentimentAnalyzer {
+        +--static-- loadLexicon(String filePath) : Map~String, Double~
+        +--static-- computeSentimentScores(Map~String, ArrayList~String~~ topicWords, Map~String, Double~ lexiconScores) : Map~String, Double~
+        +--static-- displaySentimentResults(Map~String, Double~ sentimentScores)
+    }
+
     Main ..> RemoveWords : uses
     Main ..> TextAnalyzer : uses
-
-
+    Main ..> VocabRichness : uses
+    Main ..> SentimentAnalyzer : uses
+    RemoveWords ..> TextAnalyzer : provides data to
+    VocabRichness ..> TextAnalyzer : provides analysis
+    SentimentAnalyzer ..> TextAnalyzer : provides analysis
