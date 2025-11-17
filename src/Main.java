@@ -12,6 +12,10 @@ public class Main {
             System.out.println("Processing all topic folders...");
             Map<String, ArrayList<String>> topicData = RemoveWords.processAllTopics("articles", stopWords);
 
+            // Analyze Word Frequency
+            System.out.println("Analyzing word frequency...");
+            TextAnalyzer.analyzeTopics(topicData);
+
             // Analyze Vocabulary Richness
             System.out.println("Analyzing vocabulary richness...");
             VocabRichness.analyzeVocabRichness(topicData);
