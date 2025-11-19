@@ -62,7 +62,7 @@ This new file handles sentiment analysis of the articles.
 
 ---
 
-## Milestone 1 Architecture (UML Class Diagram)
+## Milestone 2 Architecture (UML Class Diagram)
 
 This updated class structure reflects the new modular approach, with distinct classes for each responsibility. The UML diagram below illustrates how the classes interact.
 
