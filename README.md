@@ -99,35 +99,74 @@ classDiagram
     RemoveWords ..> TextAnalyzer : provides data to
     VocabRichness ..> TextAnalyzer : provides analysis
     SentimentAnalyzer ..> TextAnalyzer : provides analysis
+## Milestone 3 – User Interaction and Dataset Expansion
 
-## Milestone 3 
-The purpose of Milestone 3 is to make the text analysis application interactive and user-driven.
-Unlike previous milestones, which focused on data processing and analysis, Milestone 3 requires the application to allow an end user to control which data is analyzed and to extend the dataset without modifying the source code.
+### Purpose of Milestone 3
 
-How we met:
+The purpose of Milestone 3 is to make the text analysis application interactive and user-driven.  
+Unlike previous milestones, which focused on data preprocessing and analysis, Milestone 3 requires the application to allow an end user to control which data is analyzed and to extend the dataset without modifying the source code.
+
+---
+
+### Initial Milestone 3 Implementation (Partial Completion)
+
 In the initial version of Milestone 3, the application included a text-based command-line interface (CLI) that allowed users to interact with the system and trigger analysis on selected topics.
 
 Specifically:
+- The program displayed a CLI menu
+- Users selected a topic by entering a numeric option
+- The system executed the full analysis pipeline for the chosen topic
+- Results were displayed directly in the console
 
-The program displayed a CLI menu
+This implementation satisfied the requirement for a text-based user interface and user-triggered analysis, but topic selection and dataset expansion were limited by hard-coded logic.
 
-Users selected a topic by entering a numeric option
+---
 
-The system executed the full analysis pipeline for the chosen topic
+### Improvements and Final Milestone 3 Implementation
 
-Results were displayed directly in the console
-
-
-
-Improvements: 
-The Main class was refactored to remove all hard-coded topic selections and instead dynamically load available topics from the /articles directory at runtime.
+The `Main` class was refactored to remove all hard-coded topic selections and instead dynamically load available topics from the `/articles` directory at runtime.
 
 This improvement allows end users to:
+- Select any topic discovered in the data library
+- Add new topics without modifying source code
+- Interact with the application through a scalable, menu-driven CLI
 
-Select any topic discovered in the data library
+This refactoring improves extensibility, maintainability, and fully satisfies the Milestone 3 requirement for user-driven topic selection.
 
-Add new topics without modifying source code
+---
 
-Interact with the application through a scalable, menu-driven CLI
+### Runtime Article Addition Through the CLI
 
-The refactoring improves extensibility, maintainability, and fully satisfies the Milestone 3 requirement for user-driven topic selection.
+The application now supports adding new articles directly through the command-line interface.
+
+The process works as follows:
+- Users are prompted to enter a topic name
+- Users paste the article text directly into the terminal
+- Pressing **ENTER on an empty line** signals the end of input
+- The article is saved as a `.txt` file in the corresponding topic directory
+
+This approach follows the approved “easy option,” avoiding operating system–specific file path issues while still allowing full user-provided data input.
+
+---
+
+### Immediate Analysis of Newly Added Articles
+
+Once a new article is added:
+- The topic dataset is reloaded from disk
+- The analysis pipeline is immediately re-executed
+- Results reflect both existing and newly added articles in the same program execution
+
+This ensures real-time feedback and confirms that the new data is successfully integrated into the system.
+
+---
+
+### Analysis Output
+
+For any selected topic, the application outputs:
+- Total word count
+- Unique word count
+- Top-frequency words
+- Vocabulary richness
+- Lexicon-based sentiment classification (positive, negative, or neutral)
+
+ 
