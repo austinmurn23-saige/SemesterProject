@@ -65,8 +65,6 @@ This new file handles sentiment analysis of the articles.
 ## Milestone 2 Architecture (UML Class Diagram)
 
 This updated class structure reflects the new modular approach, with distinct classes for each responsibility. The UML diagram below illustrates how the classes interact.
-
-```mermaid
 classDiagram
     class Main {
         +--static-- main(String[] args)
@@ -99,6 +97,7 @@ classDiagram
     RemoveWords ..> TextAnalyzer : provides data to
     VocabRichness ..> TextAnalyzer : provides analysis
     SentimentAnalyzer ..> TextAnalyzer : provides analysis
+
 ## Milestone 3 – User Interaction and Dataset Expansion
 
 ### Purpose of Milestone 3
