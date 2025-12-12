@@ -99,3 +99,35 @@ classDiagram
     RemoveWords ..> TextAnalyzer : provides data to
     VocabRichness ..> TextAnalyzer : provides analysis
     SentimentAnalyzer ..> TextAnalyzer : provides analysis
+
+## Milestone 3 
+The purpose of Milestone 3 is to make the text analysis application interactive and user-driven.
+Unlike previous milestones, which focused on data processing and analysis, Milestone 3 requires the application to allow an end user to control which data is analyzed and to extend the dataset without modifying the source code.
+
+How we met:
+In the initial version of Milestone 3, the application included a text-based command-line interface (CLI) that allowed users to interact with the system and trigger analysis on selected topics.
+
+Specifically:
+
+The program displayed a CLI menu
+
+Users selected a topic by entering a numeric option
+
+The system executed the full analysis pipeline for the chosen topic
+
+Results were displayed directly in the console
+
+
+
+Improvements: 
+The Main class was refactored to remove all hard-coded topic selections and instead dynamically load available topics from the /articles directory at runtime.
+
+This improvement allows end users to:
+
+Select any topic discovered in the data library
+
+Add new topics without modifying source code
+
+Interact with the application through a scalable, menu-driven CLI
+
+The refactoring improves extensibility, maintainability, and fully satisfies the Milestone 3 requirement for user-driven topic selection.
